@@ -31,22 +31,22 @@ def index():
     <tr class="table-success">
       <th scope="row">Add</th>
       <td>200 + 50</td>
-      <td><a href=http://localhost:6738/add/200/50>http://localhost:6738/add/200/50</a></td>
+      <td><a href=/add/200/50>https://intense-spire-53685.herokuapp.com/add/200/50</a></td>
     </tr>
     <tr class="table-danger">
       <th scope="row">Subtract</th>
       <td>10 - 8 - 1</td>
-      <td><a href=http://localhost:6738/subtract/10/8/1>http://localhost:6738/subtract/10/8/1</a></td>
+      <td><a href=/subtract/10/8/1>https://intense-spire-53685.herokuapp.com/subtract/10/8/1</a></td>
     </tr>
     <tr class="table-info">
       <th scope="row">Multiply</th>
       <td>2 * 5 * 3</td>
-      <td><a href=http://localhost:6738/multiply/2/5/3>http://localhost:6738/multiply/2/5/3</a></td>
+      <td><a href=/multiply/2/5/3>https://intense-spire-53685.herokuapp.com/multiply/2/5/3</a></td>
     </tr>
     <tr class="table-warning">
       <th scope="row">Divide</th>
       <td>400 / 4</td>
-      <td><a href=http://localhost:6738/divide/400/4>http://localhost:6738/divide/400/4</a></td>
+      <td><a href=/divide/400/4>https://intense-spire-53685.herokuapp.com/divide/400/4</a></td>
     </tr>
   </tbody>
 </table>

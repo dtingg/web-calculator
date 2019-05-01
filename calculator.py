@@ -214,9 +214,9 @@ def application(environ, start_response):
 if __name__ == '__main__':
     # Use wsgiref to make a simple server
     from wsgiref.simple_server import make_server
+
     port = int(os.environ.get("PORT", 8080))
-    srv = make_server("0.0.0.0", port, application)
+    host = os.environ.get("HOST", "localhost")
+
+    srv = make_server(host, port, application)
     srv.serve_forever()
-
-
-

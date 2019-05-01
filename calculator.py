@@ -216,7 +216,6 @@ if __name__ == '__main__':
     from wsgiref.simple_server import make_server
 
     port = int(os.environ.get("PORT", 8080))
-    host = os.environ.get("ADDRESS", "localhost")
 
-    srv = make_server(host, port, application)
+    srv = make_server("0.0.0.0", port, application)
     srv.serve_forever()

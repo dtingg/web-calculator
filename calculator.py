@@ -157,7 +157,7 @@ def body_template():
     <title>Dianna's Web Calculator</title>
   </head>
   <body>
-    <div class="container-fluid">  
+    <div class="p-4 container-fluid">  
     <h1>Dianna's Web Calculator</h1>
     {}
     </div>
